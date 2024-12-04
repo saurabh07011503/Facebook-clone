@@ -1,0 +1,141 @@
+.main { 
+    display: flex;
+   
+}
+
+.div1 {
+    background-color: white;
+    height: 1200px;
+    width: 20%;
+    display: flex;   
+    border-color: grey;
+    margin-top: 20px;
+    
+}
+
+.div2 {
+    background-color: rgb(250, 250, 250);
+    height: 1200px;
+    width: 60%;
+    border-color: grey;
+    margin-top: 20px;
+}
+
+.div3 {
+    background-color: white;
+    height: 1200px;
+    width: 20%;
+    border-color: grey;
+    margin-top: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    position: static;
+    cursor: pointer;
+    
+  }
+  
+  .first {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 15px;
+    cursor: pointer;
+  }
+  
+  .second {
+    display: flex;
+    gap: 80px;
+    color:black;
+    align-items: center;
+    margin-left: -270px;
+    cursor: pointer;
+    
+  }
+  .second :hover{
+    color: blue;
+  }
+  
+  .third {
+    
+    gap: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+
+  .third :hover{
+    color: blue;
+  }
+  
+  .search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+
+.photos {
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    gap: 30px;
+
+    
+}
+
+.photos img {
+    border-radius: 5px;
+    
+}
+
+.searching {
+    border: solid;
+    border-color: lightslategray;
+    width: 50%;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 160px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.image {
+    margin-top: 10px;
+}
+
+.image img{
+    margin-top: 40px;
+}
+
+b {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+i {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.div3 img{
+    margin-left: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.option1 {
+    color: red;
+    background-color: blue;
+}
+
